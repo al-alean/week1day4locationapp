@@ -6,20 +6,20 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
-    TextView textView2;
+    TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
 
-        Intent intend2 = getIntent();
-        Bundle bundle2 = intend2.getExtras();
-        String string2 = bundle2.getString("text");
-        textView2=findViewById(R.id.display);
+        Intent intend = getIntent();
+        Bundle bundle = intend.getExtras();
+        String string = bundle.getString("text");
+        textView=findViewById(R.id.display);
 
-        if(string2 != null && !string2.isEmpty() ){
-            textView2.setText(string2);
+        if(string != null && !string.isEmpty() ){
+            textView.setText(string);
         }
     }
 }

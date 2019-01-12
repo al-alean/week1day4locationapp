@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">week1day4locationapp</string>
     <string name="hello_world">Hola Mundo</string>
+    <string name="good_morning">Buenos Dias</string>
+    <string name="wake_up">Levantese</string>
+    <string name="lets_go">Vamonos</string>
+    <string name="crazy_horse">Caballo Loco</string>
 </resources>
